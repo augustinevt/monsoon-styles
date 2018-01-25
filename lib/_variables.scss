@@ -1,0 +1,45 @@
+// $background-color: #eee;
+$border-radius: 4px;
+$hover-grey: $active-input;
+$active-border: $active-input;
+
+// overlay
+$overlay-opacity: .2;
+$overlay-background: grey;
+
+// grid
+$container-padding: 20px;
+
+// colors
+
+/// font
+$lg-font-size: 1.5rem;
+$sm-font-size: .8rem;
+$md-font-size: 1rem;
+
+/// z-indexes
+$overlay-z: 50;
+$modal-content-z: 51;
+$above-overlay-z: 52;
+$filters-z: 47;
+$filters-container-z: 50;
+$stream-update-button: 47;
+$growls-z: 51;
+$navbar-z: 47;
+
+// PADDING + MARGIN
+
+$xs-padding: 4px;
+$sm-padding: 8px;
+$md-padding: 16px;
+$lg-padding: 16px;
+$xl-padding: 32px;
+
+$xs-margin: 4px;
+$sm-margin: 8px;
+$md-margin: 16px;
+$lg-margin: 16px;
+$xl-margin: 32px;
+
+// borders
+$border-width: 2px;

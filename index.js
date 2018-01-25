@@ -1,7 +1,7 @@
 'use strict';
 
-var variables = require('./lib/variables.scss');
+var module = require('./lib/module.module.scss');
 
 module.exports = {
-	variables: variables
+	module: module,
 };
