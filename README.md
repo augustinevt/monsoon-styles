@@ -1,15 +1,30 @@
-# Develop
+# Monsoon Styles
 
-in monsoon-styles : `npm link`
-in root of app : 'npm link @monsoon_inc/monsoon-styles2'
+A collection of style assets (all Sass at this point), intended to be consumed over npm, to be shared across frontend apps.
 
-# By convention, we import like this:
+#### Install
+1. `git clone https://github.com/monsooncommerce/monsoon-styles.git`
 
-`@import '@monsoon_inc/monsoon-styleguide/lib/<file-to-import>`
+#### Develop
 
-In a index.scss that we then import into the App.js file (although you can import it into a JS file, just take the "@" off of the previous line)
 
-Also, in order to do that, you need to be tell webpack to look for sass in node_modules
+In monsoon-styles :
+
+`npm run build`
+
+`npm link`
+
+In root of app :
+
+`npm link @monsoon_inc/monsoon-styles`
+
+By "convention", we import like this...
+
+`@import '@monsoon_inc/monsoon-styles/lib/<file-to-import>` (most likely "index.scss")
+
+...In a index.scss that we then import into the App.js file. (although you can import it into a JS file, just take the "@" off of the previous line).
+
+Also, in order to do that, you need to be tell webpack to look for sass in node_modules.
 
 ```
   exports.loadStyles = ({include, exclude} = {}) => ({
