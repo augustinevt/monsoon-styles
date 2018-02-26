@@ -18,11 +18,11 @@ In root of app :
 
 `npm link @monsoon_inc/monsoon-styles`
 
-By "convention", we import like this...
+Assuming you are using a similar setup to the monsoon frontend boilerplate (or monsoon-frontend-utility), we import like this...
 
 `@import '@monsoon_inc/monsoon-styles/lib/<file-to-import>` (most likely "index.scss")
 
-...In a index.scss that we then import into the App.js file. (although you can import it into a JS file, just take the "@" off of the previous line).
+...in a index.scss that we then import into the App.js file. (although you can import it into a JS file, just take the "@" off of the previous line).
 
 Also, in order to do that, you need to be tell webpack to look for sass in node_modules.
 
